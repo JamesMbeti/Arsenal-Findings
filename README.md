@@ -26,9 +26,9 @@ The MLE of a binomial distribution is given by:
 \]
 
 where:
-- \(\hat{p}\) represents the estimated probability of the event (in this case Arsenal winning the league).
-- \(x\) is the number of favorable outcomes (Arsenal winning matches).
-- \(n\) is the total number of trials (total number of matches played in the league).
+- $\(\hat{p}\)$ represents the estimated probability of the event (in this case Arsenal winning the league).
+- $\(x\)$ is the number of favorable outcomes (Arsenal winning matches).
+- $\(n\)$ is the total number of trials (total number of matches played in the league).
 
 The proof of the above Binomial MLE can be found [here.](https://statproofbook.github.io/P/bin-mle.html)
 
