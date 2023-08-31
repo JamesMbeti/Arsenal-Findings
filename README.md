@@ -8,7 +8,7 @@ This project focuses on utilizing a binomial maximum likelihood estimator to pre
 
 ## Features
 
-- **Data Collection:** Scraped match data of Arsenal from [this site]("https://fbref.com/en/squads/18bb7c10/2002-2003/Arsenal-Stats"), compiling a comprehensive dataset for analysis.
+- **Data Collection:** Scraped match data of Arsenal from [this site](https://fbref.com/en/squads/18bb7c10/2002-2003/Arsenal-Stats), compiling a comprehensive dataset for analysis.
 
 - **Statistical Analysis:** Applied binomial maximum likelihood estimator to calculate the probability of Arsenal winning the Premier League.
 
@@ -20,6 +20,7 @@ This project focuses on utilizing a binomial maximum likelihood estimator to pre
 ``Maximum likelihood estimation`` is a method that determines values for the parameters of a model. The parameter values are found such that they maximise the likelihood that the process described by the model produced the data that were actually observed. In this case I used the MLE of binomial distribution as I assumed that the data followed closely a binomial distribution in terms of wins and loses. in the last 20 years. Really not perfect as there are many things to put into consideration but good for a start right?
 
 The MLE of a binomial distribution is given by:
+\hat{p}
 
 \[
 \hat{p} = \frac{x}{n}
@@ -30,7 +31,7 @@ where:
 - \(x\) is the number of favorable outcomes (Arsenal winning matches).
 - \(n\) is the total number of trials (total number of matches played in the league).
 
-The proof of the above Binomial MLE can be found (here)["https://statproofbook.github.io/P/bin-mle.html"]
+The proof of the above Binomial MLE can be found [here](https://statproofbook.github.io/P/bin-mle.html)
 
 
 ## Results
@@ -43,5 +44,5 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## Contact
 
-For any inquiries or questions, please contact jamesmbeti@gmail.com and visit my (LinkedIn Profile)["https://www.linkedin.com/in/james-mbeti-128519175/"]
+For any inquiries or questions, please contact jamesmbeti@gmail.com and visit my [LinkedIn Profile](https://www.linkedin.com/in/james-mbeti-128519175/)
 
