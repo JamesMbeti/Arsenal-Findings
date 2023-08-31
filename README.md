@@ -12,12 +12,8 @@ This project focuses on utilizing a binomial maximum likelihood estimator to pre
 
 - **Statistical Analysis:** Applied binomial maximum likelihood estimator to calculate the probability of Arsenal winning the Premier League.
 
-- **Visualization:** Presented the probability estimation using visually informative charts and graphs.
-
-- **Modular Structure:** Codebase is organized into separate modules for data collection, analysis, and visualization for easy understanding and maintenance.
-
 ## Maximum Likelihood Estimator (MLE)
-``Maximum likelihood estimation`` is a method that determines values for the parameters of a model. The parameter values are found such that they maximise the likelihood that the process described by the model produced the data that were actually observed. In this case I used the MLE of binomial distribution as I assumed that the data followed closely a binomial distribution in terms of wins and loses. in the last 20 years. Really not perfect as there are many things to put into consideration but good for a start right?
+``Maximum likelihood estimation`` is a method that determines values for the parameters of a model. The parameter values are found such that they maximise the likelihood that the process described by the model produced the data that were actually observed. In this case I used the MLE of binomial distribution as I assumed that the data follows closely a binomial distribution in terms of wins and loses for the last 20 years. Really not perfect as there are many things to put into consideration but good for a start right?
 
 The MLE of a binomial distribution is given by:
 
@@ -34,7 +30,7 @@ The proof of the above Binomial MLE can be found [here.](https://statproofbook.g
 
 ## Results
 
-The analysis of the data using the binomial maximum likelihood estimator yielded a predicted probability of 56% that Arsenal will win the Premier League title for the previous season.
+The analysis of the data using the binomial maximum likelihood estimator yielded a predicted probability of 56% that Arsenal will win the Premier League title. This proves to be a low probability considering what people are saying that Arsenal has already won the league as it is already 8 points clear.
 
 ## Contributing
 
