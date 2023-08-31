@@ -21,9 +21,9 @@ This project focuses on utilizing a binomial maximum likelihood estimator to pre
 
 The MLE of a binomial distribution is given by:
 
-\[
+$\[
 \hat{p} = \frac{x}{n}
-\]
+\]$
 
 where:
 - $\(\hat{p}\)$ represents the estimated probability of the event (in this case Arsenal winning the league).
